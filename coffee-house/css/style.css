@@ -124,6 +124,7 @@ html {
 /*coffee_menu start*/
 
 .coffee_menu {
+    text-decoration: none;
     display: flex;
     height: 28px;
     justify-content: flex-end;
@@ -940,6 +941,7 @@ html {
 }
 
 .button_icon_light_1 {
+    text-decoration: none;
     display: flex;
     width: 60px;
     height: 60px;
@@ -951,6 +953,7 @@ html {
 }
 
 .button_icon_light_2 {
+    text-decoration: none;
     display: flex;
     width: 60px;
     height: 60px;
@@ -962,6 +965,7 @@ html {
 }
 
 .button_icon_light_3 {
+    text-decoration: none;
     display: flex;
     width: 60px;
     height: 60px;
@@ -1090,6 +1094,7 @@ html {
 }
 
 .link_1_text {
+    text-decoration: none;
     color: #E1D4C9;
     font-feature-settings: 'clig' off, 'liga' off;
     font-family: Inter;
@@ -1119,6 +1124,7 @@ html {
 }
 
 .link_2_text {
+    text-decoration: none;
     color: #E1D4C9;
     font-feature-settings: 'clig' off, 'liga' off;
     font-family: Inter;
@@ -1187,4 +1193,4 @@ html {
 
 /*contacts end*/
 
-/*------------------footer end------==--------------*/
+/*------------------footer end----------------------*/
