@@ -638,3 +638,229 @@
 }
 
 /*about end*/
+
+/*mobile_app start*/
+
+.mobile_app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    align-self: stretch;
+    border-radius: 40px;
+}
+
+.mobile_app_container {
+    display: flex;
+    max-width: 1360px;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    flex: 1 0 0;
+}
+
+.mobile_app_offer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+    flex: 1 0 0;
+}
+
+.mobile_app_offer_text_1 {
+    align-self: stretch;
+    color: #403F3D;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Inter;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 75px;
+    .mobile_app_download {
+        color: #B0907A;
+        font-style: italic;
+    }
+}
+
+.mobile_app_offer_text_2 {
+    align-self: stretch;
+    color: #403F3D;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.mobile_app_buttons {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.button_app_store {
+    display: flex;
+    width: 200px;
+    padding: 12px 20px;
+    align-items: center;
+    gap: 8px;
+    border-radius: 100px;
+    border: 1px solid #665F55;
+    background: #E1D4C9;
+    transition: 0.8s;
+}
+
+.button_google_play {
+    display: flex;
+    width: 200px;
+    padding: 12px 20px;
+    align-items: center;
+    gap: 8px;
+    border-radius: 100px;
+    border: 1px solid #665F55;
+    background: #E1D4C9;
+    transition: 0.8s;
+}
+
+.button_app_store_icon {
+    width: 36px;
+    height: 36px;
+    flex-shrink: 0;
+}
+
+.button_google_play_icon {
+    width: 36px;
+    height: 36px;
+    flex-shrink: 0;
+}
+
+.button_app_store_text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+}
+
+.button_google_play_text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+}
+
+.button_app_store_text_1 {
+    color: #403F3D;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 14px;
+    transition: 0.8s;
+}
+
+.button_app_store_text_2 {
+    color: #403F3D;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    transition: 0.8s;
+}
+
+.button_google_play_text_1 {
+    color: #403F3D;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 14px;
+    transition: 0.8s;
+}
+
+.button_google_play_text_2 {
+    color: #403F3D;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    transition: 0.8s;
+}
+
+.button_app_store_icon_1 {
+    transition: 0.8s;
+}
+
+.button_app_store_icon_2 {
+    transition: 0.8s;
+}
+
+.button_google_play_icon_1 {
+    transition: 0.8s;
+}
+
+.button_google_play_icon_2 {
+    transition: 0.8s;
+}
+
+.button_google_play_icon_3 {
+    transition: 0.8s;
+}
+
+.button_google_play_icon_4 {
+    transition: 0.8s;
+}
+
+.button_app_store:hover {
+    background: #665F55;
+    .button_app_store_icon_1 {
+        fill: #E1D4C9;
+    }
+    .button_app_store_icon_2 {
+        fill: #E1D4C9;
+    }
+    .button_app_store_text_1 {
+        color: #E1D4C9;
+    }
+    .button_app_store_text_2 {
+        color: #E1D4C9;
+    }
+}
+
+.button_google_play:hover {
+    background: #665F55;
+    .button_google_play_icon_1 {
+        fill: #E1D4C9;
+    }
+    .button_google_play_icon_2 {
+        fill: #E1D4C9;
+    }
+    .button_google_play_icon_3 {
+        fill: #E1D4C9;
+    }
+    .button_google_play_icon_4 {
+        fill: #E1D4C9;
+    }
+    .button_google_play_text_1 {
+        color: #E1D4C9;
+    }
+    .button_google_play_text_2 {
+        color: #E1D4C9;
+    }
+}
+
+.mobile_app_mobile_screens {
+    width: 630px;
+    height: 630px;
+    background: url(../img/png/mobile-screens.png), lightgray 50% / cover no-repeat;
+}
+
+/*mobile_app end*/
