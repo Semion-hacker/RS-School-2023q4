@@ -8,6 +8,7 @@ h1 {
     justify-content: center;
     margin: 0;
     background: #E1D4C9;
+    overflow-x: hidden;
 }
 
 .wrapper {
@@ -113,6 +114,36 @@ h1 {
         background: #403F3D;
     }
     cursor: pointer;
+}
+
+.button_icon_burger {
+    width: 44px;
+    height: 44px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    border: 1px solid #665F55;
+    display: none;
+}
+
+.button_icon_burger_menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8.1px;
+}
+
+.button_icon_burger_menu_vector_1 {
+    width: 16px;
+    height: 1px;
+    background-color: #403F3D;
+}
+
+.button_icon_burger_menu_vector_2 {
+    width: 16px;
+    height: 1px;
+    background-color: #403F3D;
 }
 
 .coffee_menu {
@@ -490,6 +521,23 @@ h1 {
     line-height: 30px;
 }
 
+.button_icon_dark {
+    width: 60px;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    border: 1px solid #665F55;
+    display: none;
+    margin: 0 auto;
+}
+
+.button_icon_dark_item {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+}
+
 .contacts {
     display: flex;
     flex-direction: column;
@@ -805,3 +853,278 @@ h1 {
 }
 
 /*------------------menu end------------------------*/
+
+
+/*------------------media start----------------------*/
+
+
+@media (max-width: 1439.5px) {
+    .wrapper {
+        width: 100%;
+    }
+
+    .br_1 {
+        display: none;
+    }
+
+    .div_menu_offer_text_1 {
+        width: initial;
+    }
+
+    .div_menu_grid {
+        grid-template-columns: 1fr 1fr;
+        margin: 0 auto;
+    }
+
+    .contacts_container {
+        flex-direction: column;
+        margin-right: 40px;
+        padding-left: 60px;
+        padding-right: 60px;
+        align-items: flex-start;
+    }
+
+    .div_menu_container {
+        gap: 38px;
+    }
+
+    .contacts_offer_text_1 {
+        white-space: wrap;
+    }
+}
+
+@media (max-width: 768px) {
+    a {
+        cursor: auto;
+    }
+
+    .div_menu_offer_tabs:hover {
+        cursor: auto;
+    }
+
+    .div_menu_offer_tab_item_2:hover {
+        background: #E1D4C9;
+        .div_menu_offer_tab_item_2_Tea {
+            color: #665F55;
+        }
+    }
+    
+    .div_menu_offer_tab_item_3:hover {
+        background: #E1D4C9;
+        .div_menu_offer_tab_item_3_Dessert {
+            color: #665F55;
+        }
+    }
+
+    .box_preview:hover {
+        .box_preview_0 {
+            transform: scale(1.15);
+        }
+        .box_preview_1 {
+            transform: scale(1.15);
+        }
+        .box_preview_2 {
+            transform: scale(1.15);
+        }
+        .box_preview_3 {
+            transform: scale(1.15);
+        }
+        .box_preview_4 {
+            transform: scale(1.15);
+        }
+        .box_preview_5 {
+            transform: scale(1.15);
+        }
+        .box_preview_6 {
+            transform: scale(1.15);
+        }
+        .box_preview_7 {
+            transform: scale(1.15);
+        }
+    }
+
+    .button_icon_light_1 {
+        cursor: auto;
+    }
+
+    .button_icon_light_2 {
+        cursor: auto;
+    }
+
+    .button_icon_light_3 {
+        cursor: auto;
+    }
+
+    .link_item_1:hover {
+        .link_item_1_Line {
+            width: 0;
+            background: #E1D4C9;
+        }
+    }
+    
+    .link_item_2:hover {
+        .link_item_2_Line {
+            width: 0;
+            background: #E1D4C9;
+        }
+    }
+    
+    .link_item_3:hover {
+        .link_item_3_Line {
+            width: 0;
+            background: #E1D4C9;
+        }
+    }
+    
+    .button_icon_light_1:hover {
+        cursor: auto;
+        background: #665F55;
+        .contacts_offer_twitter_1 {
+            stroke:#E1D4C9;
+        }
+    }
+    
+    .button_icon_light_2:hover {
+        cursor: auto;
+        background: #665F55;
+        .contacts_offer_instagram_1 {
+            stroke:#E1D4C9;
+        }
+        .contacts_offer_instagram_2 {
+            stroke:#E1D4C9;
+        }
+        .contacts_offer_instagram_3 {
+            stroke:#E1D4C9;
+        }
+    }
+    
+    .button_icon_light_3:hover {
+        cursor: auto;
+        background: #665F55;
+        .contacts_offer_facebook_1 {
+            stroke:#E1D4C9;
+        }
+    }
+
+    .div_menu_grid_preview_5 {
+        display: none;
+    }
+
+    .div_menu_grid_preview_6 {
+        display: none;
+    }
+
+    .div_menu_grid_preview_7 {
+        display: none;
+    }
+
+    .div_menu_grid_preview_8 {
+        display: none;
+    }
+
+    .button_icon_dark {
+        display: flex;
+    }
+
+    .button_icon_burger {
+        display: flex;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .coffee_menu {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        padding: 0 16px;
+    }
+
+    .div_menu_offer_text_1 {
+        color: #403F3D;
+        text-align: center;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Inter;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 125%;
+    }
+
+    .div_menu_offer_text_2 {
+        color: #B0907A;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Inter;
+        font-size: 32px;
+        font-style: italic;
+        font-weight: 600;
+        line-height: 125%;
+    }
+
+    .div_menu {
+        padding: 0 16px;
+    }
+
+    .div_menu_offer_tabs {
+        gap: 3px;
+    }
+
+    .div_menu_grid {
+        grid-template-columns: 1fr;
+    }
+
+    .contacts_container {
+        margin-left: 16px;
+        margin-right: 16px;
+        padding: 60px 16px;
+    }
+
+    .contacts_offer_text_1 {
+        color: #E1D4C9;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Inter;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 125%;
+        white-space: wrap;
+    }
+
+    .contacts_offer_text_2 {
+        color: #B0907A;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Inter;
+        font-size: 32px;
+        font-style: italic;
+        font-weight: 600;
+        line-height: 125%;
+    }
+
+    .mobile_app_buttons {
+        flex-direction: column;
+        margin-left: 16px;
+    }
+
+    .mobile_app_container {
+        gap: 40px;
+    }
+
+    .contacts_container {
+        gap: 40px;
+    }
+
+    .div_menu_container {
+        gap: 34px;
+    }
+
+    .contacts_offer_text_1 {
+        white-space: wrap;
+    }
+}
+
+
+/*------------------media end----------------------*/
