@@ -1338,5 +1338,246 @@ html {
     }
 }
 
+@media (max-width: 767px) {
+    .container {
+        padding: 0 16px;
+    }
+
+    .hero {
+        padding: 0 16px;
+    }
+
+    .hero_offer {
+        width: initial;
+    }
+
+    .br_2 {
+        display: none;
+    }
+
+    .hero_offer_text1 {
+        font-size: 42px;
+        color: #E1D4C9;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Inter;
+        font-size: 42px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 115%;
+    }
+
+    .hero_container {
+        padding: 60px 16px;
+    }
+
+    .Enjoy {
+        color: #E1D4C9;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Inter;
+        font-size: 42px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 115%;
+    }
+
+    .hero_offer_text2 {
+        color: var(--text-light, #E1D4C9);
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+    }
+
+    .favorite_coffee_text {
+        color: #403F3D;
+        text-align: center;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Inter;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 125%;
+    }
+
+    .favorite_text {
+        color: #B0907A;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Inter;
+        font-size: 32px;
+        font-style: italic;
+        font-weight: 600;
+        line-height: 125%;
+    }
+
+    .favorite_coffee {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .coffee_slider_1_img {
+       width: 348px;
+       height: 348px;
+       background-size: 348px;
+    }
+
+    .button_icon_dark_right {
+        display: none;
+    }
+
+    .button_icon_dark_left {
+        display: none;
+    }
+
+    .coffee_slider_text_2 {
+        color: #403F3D;
+        text-align: center;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+    }
+
+    .favorite_coffee_row_slider {
+        max-width: initial;
+        min-width: initial;
+        width: initial;
+    }
+
+    .slider_slide_1 {
+        max-width: initial;
+        min-width: initial;
+        width: initial;
+    }
+
+    .slider_slide_1_content {
+        max-width: initial;
+        min-width: initial;
+        width: initial;
+    }
+
+    .about_text_1 {
+        color:#403F3D;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Inter;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 125%;
+    }
+
+    .about_text_2 {
+        color: #B0907A;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Inter;
+        font-size: 32px;
+        font-style: italic;
+        font-weight: 600;
+        line-height: 125%;
+    }
+
+    .about_container {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+
+    .about_images_column_1 {
+        width: 100%;
+    }
+
+    .about_images_column_1_box_1 {
+        width: 100%;
+    }
+
+    .about_images_column_2 {
+        width: 100%;
+    }
+
+    .about_images_column_2_box_2 {
+        width: 100%;
+    }
+
+    .mobile_app_offer_text_1 {
+        color: #403F3D;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Inter;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 125%;
+        margin-left: 16px;
+    }
+
+    .mobile_app_download {
+        color: #B0907A;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Inter;
+        font-size: 32px;
+        font-style: italic;
+        font-weight: 600;
+        line-height: 125%;
+    }
+
+    .mobile_app_offer_text_2 {
+        color: #403F3D;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+        margin-left: 16px;
+    }
+    
+    .mobile_app_mobile_screens {
+        width: 348px;
+        height: 348px;
+        background-size: 348px;
+    }
+
+    .contacts_container {
+        margin-left: 16px;
+        margin-right: 16px;
+        padding: 60px 16px;
+    }
+
+    .contacts_offer_text_1 {
+        color: #E1D4C9;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Inter;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 125%;
+        white-space: wrap;
+    }
+
+    .contacts_offer_text_2 {
+        color: #B0907A;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Inter;
+        font-size: 32px;
+        font-style: italic;
+        font-weight: 600;
+        line-height: 125%;
+    }
+
+    .mobile_app_buttons {
+        flex-direction: column;
+        margin-left: 16px;
+    }
+
+    .mobile_app_container {
+        gap: 40px;
+    }
+
+    .contacts_container {
+        gap: 40px;
+    }
+}
+
 
 /*------------------media end----------------------*/
