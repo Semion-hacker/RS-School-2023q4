@@ -894,6 +894,118 @@ h1 {
 }
 
 @media (max-width: 768px) {
+    a {
+        cursor: auto;
+    }
+
+    .div_menu_offer_tabs:hover {
+        cursor: auto;
+    }
+
+    .div_menu_offer_tab_item_2:hover {
+        background: #E1D4C9;
+        .div_menu_offer_tab_item_2_Tea {
+            color: #665F55;
+        }
+    }
+    
+    .div_menu_offer_tab_item_3:hover {
+        background: #E1D4C9;
+        .div_menu_offer_tab_item_3_Dessert {
+            color: #665F55;
+        }
+    }
+
+    .box_preview:hover {
+        .box_preview_0 {
+            transform: scale(1.15);
+        }
+        .box_preview_1 {
+            transform: scale(1.15);
+        }
+        .box_preview_2 {
+            transform: scale(1.15);
+        }
+        .box_preview_3 {
+            transform: scale(1.15);
+        }
+        .box_preview_4 {
+            transform: scale(1.15);
+        }
+        .box_preview_5 {
+            transform: scale(1.15);
+        }
+        .box_preview_6 {
+            transform: scale(1.15);
+        }
+        .box_preview_7 {
+            transform: scale(1.15);
+        }
+    }
+
+    .button_icon_light_1 {
+        cursor: auto;
+    }
+
+    .button_icon_light_2 {
+        cursor: auto;
+    }
+
+    .button_icon_light_3 {
+        cursor: auto;
+    }
+
+    .link_item_1:hover {
+        .link_item_1_Line {
+            width: 0;
+            background: #E1D4C9;
+        }
+    }
+    
+    .link_item_2:hover {
+        .link_item_2_Line {
+            width: 0;
+            background: #E1D4C9;
+        }
+    }
+    
+    .link_item_3:hover {
+        .link_item_3_Line {
+            width: 0;
+            background: #E1D4C9;
+        }
+    }
+    
+    .button_icon_light_1:hover {
+        cursor: auto;
+        background: #665F55;
+        .contacts_offer_twitter_1 {
+            stroke:#E1D4C9;
+        }
+    }
+    
+    .button_icon_light_2:hover {
+        cursor: auto;
+        background: #665F55;
+        .contacts_offer_instagram_1 {
+            stroke:#E1D4C9;
+        }
+        .contacts_offer_instagram_2 {
+            stroke:#E1D4C9;
+        }
+        .contacts_offer_instagram_3 {
+            stroke:#E1D4C9;
+        }
+    }
+    
+    .button_icon_light_3:hover {
+        cursor: auto;
+        background: #665F55;
+        .contacts_offer_facebook_1 {
+            stroke:#E1D4C9;
+        }
+    }
+
     .div_menu_grid_preview_5 {
         display: none;
     }
