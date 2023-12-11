@@ -194,6 +194,32 @@ html {
     line-height: 24px;
 }
 
+.header_menu2_coffee_menu {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+    margin-top: 40px;
+    text-decoration: none;
+}
+
+.header_menu2_coffee_menu_text {
+    color: #403F3D;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
+}
+
+.header_menu2_coffee_menu_item {
+    width: 40px;
+    height: 40px;
+}
+
 .Line_menu_item {
     width: 0px;
     height: 2px;
