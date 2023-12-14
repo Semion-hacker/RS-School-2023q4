@@ -276,7 +276,7 @@ html {
 
 .myVideo {
     max-width: 1360px;
-    z-index: -1;
+    z-index: -2;
     align-self: center;
 }
 
@@ -290,6 +290,7 @@ html {
     gap: 40px;
     margin-left: 100px;
     margin-top: 100px;
+    z-index: -1;
 }
 
 .hero_offer_text1 {
