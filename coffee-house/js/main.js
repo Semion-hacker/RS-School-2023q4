@@ -109,7 +109,7 @@ slider_control_3.addEventListener('click', () => {
 
 setInterval(function scrolling() {
     if (i == 0) {
-        slider_control_1.style.background = "C1B6AD";
+        slider_control_1.style.background = "#C1B6AD";
         slider_control_2.style.background = "#665F55";
         slider_control_3.style.background = "#C1B6AD";
         slider_slide_1.style.margin = "0 0 0 -100%";

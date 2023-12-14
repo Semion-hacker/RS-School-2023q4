@@ -262,26 +262,34 @@ html {
 
 
 /*hero start*/
-
 .hero_container {
     display: flex;
     max-width: 1360px;
-    padding: 100px;
+    max-height: 644px;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     align-self: stretch;
+    overflow: hidden;
     border-radius: 40px;
-    background: url(../img/png/container.png), lightgray 50% / cover no-repeat;
+}
+
+.myVideo {
+    max-width: 1360px;
+    z-index: -1;
+    align-self: center;
 }
 
 .hero_offer {
+    position: absolute;
     display: flex;
     width: 530px;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     gap: 40px;
+    margin-left: 100px;
+    margin-top: 100px;
 }
 
 .hero_offer_text1 {
@@ -1331,7 +1339,11 @@ html {
 
     .hero_container {
         background-position: center center;
-        padding-left: 60px;
+    }
+
+    .hero_offer {
+        margin-left: 60px;
+        margin-top: 100px;
     }
 
     .favorite_coffee_slider {
@@ -1619,8 +1631,10 @@ html {
         line-height: 115%;
     }
 
-    .hero_container {
-        padding: 60px 16px;
+    .hero_offer {
+        margin-left: 16px;
+        margin-top: 60px;
+        margin-right: 16px;
     }
 
     .Enjoy {
