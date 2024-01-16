@@ -23,6 +23,7 @@
     display: flex;
     justify-content: center;
     margin-top: 80px;
+    margin-bottom: 80px;
 }
 
 .div_container {
@@ -85,7 +86,8 @@
     justify-content: center;
 }
 
-.button {
+.key {
+    cursor: pointer;
     width: 40px;
     height: 40px;
     border: none;
@@ -100,7 +102,13 @@
     transition: 0.5s;
 }
 
-.button:hover {
+.key.clicked {
+    cursor: auto;
+    background-color: #F4E4C1;
+    color: #08105B;
+}
+
+.key:hover {
     background-color: #F4E4C1;
     color: #08105B;
 }
