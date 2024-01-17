@@ -2,10 +2,27 @@ const RandomPuzzles = Math.floor(Math.random() * puzzles.length);
 const { mystery, answer } = puzzles[RandomPuzzles]
 let currendAnswer = answer;
 let errors = 0;
+let x = 0;
+let y = 0;
+let examination = 0;
 
-const thisGame = (key, CharCode) => {
+const thisGame = (CharCode) => {
     if(currendAnswer.includes(CharCode)) {
-        
+        while (y < currendAnswer.length) {
+            if (CharCode === currendAnswer[y]) {
+                let classLetter = 'letter'.repeat(y + 1);
+                let requiredLetter = document.querySelector(`.${classLetter}`);
+                requiredLetter.innerHTML = CharCode;
+                requiredLetter.classList.add('solved');
+                examination += 1;
+                if (examination === currendAnswer.length) {
+                    div_modal_wrapper.style.display = 'flex';
+                    span_modal_text1.innerText = 'You won!!!';
+                }
+            }
+            y += 1;
+        }
+        y = 0;
     } else {
         errors += 1
         if (errors > 5) {
@@ -53,9 +70,17 @@ let div_wd = document.createElement('div');
 div_wd.className = 'div_wd';
 div_container.append(div_wd);
 
+
+
 const answerLength = answer.length;
-const letters = '<span class="span_wd"></span>'.repeat(answerLength);
-div_wd.innerHTML = letters;
+while (x < answerLength) {
+    let letters = document.createElement('span');
+    letters.className = 'span_wd';
+    let classLetters = 'letter'.repeat(x + 1);
+    letters.classList.add(`${classLetters}`);
+    div_wd.append(letters)
+    x += 1;
+}
 
 
 
@@ -87,7 +112,7 @@ while (i < 123) {
     key.addEventListener('click', () => {
         if(!key.classList.contains('clicked')) {
             key.classList.add('clicked');
-            thisGame(key, CharCode);
+            thisGame(CharCode);
         }
     })
     i += 1;

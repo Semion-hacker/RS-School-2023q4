@@ -163,3 +163,32 @@
 .button_again:hover {
     background-color:#16DB94;
 }
+
+
+@media (max-width: 1000px) {
+    .main {
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 500px) {
+    .div_wd {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 410px) {
+    .header {
+        font-size: 30px;
+    }
+    .div_wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .img {
+        width: 80%;
+        height: 80%;
+    }
+}
