@@ -1,5 +1,5 @@
-const RandomPuzzles = Math.floor(Math.random() * puzzles.length);
-const { mystery, answer } = puzzles[RandomPuzzles]
+let RandomPuzzles = Math.floor(Math.random() * puzzles.length);
+let { mystery, answer } = puzzles[RandomPuzzles];
 let currendAnswer = answer;
 let errors = 0;
 let x = 0;
@@ -81,7 +81,10 @@ main.append(div_wrapper);
 let img = document.createElement('img');
 img.className = 'img';
 div_wrapper.append(img);
-img.setAttribute('src', `./img/png/hangman${errors + 1}.png`);
+function imgErrors() {
+    img.setAttribute('src', `./img/png/hangman${errors + 1}.png`);
+}
+imgErrors();
 img.setAttribute('alt', 'hangman1');
 
 
@@ -98,28 +101,37 @@ div_container.append(div_wd);
 
 
 
-const answerLength = answer.length;
-while (x < answerLength) {
-    let letters = document.createElement('span');
-    letters.className = 'span_wd';
-    let classLetters = 'letter'.repeat(x + 1);
-    letters.classList.add(`${classLetters}`);
-    div_wd.append(letters)
-    x += 1;
+let answerLength = answer.length;
+function answerLetters() {
+    while (x < answerLength) {
+        let letters = document.createElement('span');
+        letters.classList.remove('solved');
+        letters.className = 'span_wd';
+        let classLetters = 'letter'.repeat(x + 1);
+        letters.classList.add(`${classLetters}`);
+        div_wd.append(letters)
+        x += 1;
+    }
 }
-
+answerLetters();
 
 
 let div_mystery = document.createElement('div');
 div_mystery.className = 'mystery';
-div_mystery.innerText = mystery;
+function divMystery() {
+    div_mystery.innerText = mystery;
+}
+divMystery();
 div_container.append(div_mystery);
 
 
 
 let attempts = document.createElement('div');
 attempts.className = 'attempts';
-attempts.innerHTML = `Incorrect guesses: <span class="attempts_text">${errors} / 6<span>`;
+function attemptsText() {
+    attempts.innerHTML = `Incorrect guesses: <span class="attempts_text">${errors} / 6<span>`;
+}
+attemptsText();
 div_container.append(attempts);
 
 
@@ -167,7 +179,10 @@ div_modal.append(span_modal_text1);
 
 let span_modal_text2 = document.createElement('span');
 span_modal_text2.className = 'span_modal_text';
-span_modal_text2.innerText = `Correct answer: ${currendAnswer}`;
+function spanModalText() {
+    span_modal_text2.innerText = `Correct answer: ${currendAnswer}`;
+}
+spanModalText();
 div_modal.append(span_modal_text2);
 
 
@@ -179,6 +194,41 @@ div_modal.append(button_again);
 
 
 
+
+function beginningOfTheGame() {
+    RandomPuzzles = Math.floor(Math.random() * puzzles.length);
+    mystery = puzzles[RandomPuzzles].mystery;
+    answer = puzzles[RandomPuzzles].answer;
+    currendAnswer = answer;
+    errors = 0;
+    x = 0;
+    y = 0;
+    examination = 0;
+    z = 0;
+    result = 0;
+    answerLength = answer.length;
+}
+
+
+let d = 0;
+let t = 0;
 button_again.addEventListener('click', () => {
-    location.reload();
+    div_modal_wrapper.style.display = 'none';
+    let Letters = document.querySelectorAll('.span_wd');
+    beginningOfTheGame();
+    attemptsText();
+    spanModalText();
+    imgErrors();
+    divMystery();
+    while (t < Letters.length) {
+        Letters[t].remove();
+        t += 1;
+    }
+    answerLetters();
+    while (d < key_button.length) {
+        key_button[d].classList.remove('clicked');
+        d += 1;
+    }
+    t = 0;
+    d = 0;
 })
