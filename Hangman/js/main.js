@@ -5,6 +5,30 @@ let errors = 0;
 let x = 0;
 let y = 0;
 let examination = 0;
+let z = 0;
+let result = 0;
+const alphabet = [
+    'a', 'b', 'c', 'd', 'e', 'f',
+    'g', 'h', 'i', 'j', 'k', 'l',
+    'm', 'n', 'o', 'p', 'q', 'r',
+    's', 't', 'u', 'v', 'w', 'x',
+    'y', 'z'
+]
+let KeyDownN = addEventListener('keydown', e => {
+    let CharCode = e.key;
+    if (alphabet.includes(CharCode) && result === 0) {
+        while (z < key_button.length) {
+            if (key_button[z].innerHTML === CharCode) {
+                if (!key_button[z].classList.contains('clicked')) {
+                    thisGame(CharCode);
+                    key_button[z].classList.add('clicked');
+                }
+            }
+            z += 1;
+        }
+        z = 0;
+    }
+});
 
 const thisGame = (CharCode) => {
     if(currendAnswer.includes(CharCode)) {
@@ -18,6 +42,7 @@ const thisGame = (CharCode) => {
                 if (examination === currendAnswer.length) {
                     div_modal_wrapper.style.display = 'flex';
                     span_modal_text1.innerText = 'You won!!!';
+                    result = 1;
                 }
             }
             y += 1;
@@ -27,6 +52,7 @@ const thisGame = (CharCode) => {
         errors += 1
         if (errors > 5) {
             div_modal_wrapper.style.display = 'flex';
+            result = 1;
         }
         attempts.innerHTML = `Incorrect guesses: <span class="attempts_text">${errors} / 6<span>`;
         img.setAttribute('src', `./img/png/hangman${errors + 1}.png`);
@@ -117,6 +143,7 @@ while (i < 123) {
     })
     i += 1;
 }
+let key_button = document.querySelectorAll('.key')
 
 
 let div_modal_wrapper = document.createElement('div');
