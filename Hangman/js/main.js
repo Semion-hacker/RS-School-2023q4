@@ -8,8 +8,8 @@ const thisGame = (key, CharCode) => {
         
     } else {
         errors += 1
-        if (errors > 6) {
-            errors = 0;
+        if (errors > 5) {
+            div_modal_wrapper.style.display = 'flex';
         }
         attempts.innerHTML = `Incorrect guesses: <span class="attempts_text">${errors} / 6<span>`;
         img.setAttribute('src', `./img/png/hangman${errors + 1}.png`);
@@ -92,3 +92,41 @@ while (i < 123) {
     })
     i += 1;
 }
+
+
+let div_modal_wrapper = document.createElement('div');
+div_modal_wrapper.className = 'div_modal_wrapper';
+document.body.append(div_modal_wrapper);
+
+
+
+let div_modal = document.createElement('div');
+div_modal.className = 'div_modal';
+div_modal_wrapper.append(div_modal);
+
+
+
+let span_modal_text1 = document.createElement('span');
+span_modal_text1.className = 'span_modal_text';
+span_modal_text1.innerText = 'Unfortunately you lost.';
+div_modal.append(span_modal_text1);
+
+
+
+let span_modal_text2 = document.createElement('span');
+span_modal_text2.className = 'span_modal_text';
+span_modal_text2.innerText = `Correct answer: ${currendAnswer}`;
+div_modal.append(span_modal_text2);
+
+
+
+let button_again = document.createElement('button');
+button_again.className = 'button_again';
+button_again.innerText = `Again`;
+div_modal.append(button_again);
+
+
+
+button_again.addEventListener('click', () => {
+    location.reload();
+})
