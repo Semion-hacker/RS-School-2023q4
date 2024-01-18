@@ -1,4 +1,4 @@
-const puzzles = [
+let puzzles = [
     {
         mystery: "What is the most popular open source module builder for JavaScript applications?",
         answer: "webpack"

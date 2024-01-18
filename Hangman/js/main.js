@@ -1,6 +1,7 @@
 let RandomPuzzles = Math.floor(Math.random() * puzzles.length);
 let { mystery, answer } = puzzles[RandomPuzzles];
 let currendAnswer = answer;
+let removedPuzzles = puzzles.splice(RandomPuzzles, 1);
 let errors = 0;
 let x = 0;
 let y = 0;
@@ -200,13 +201,15 @@ function beginningOfTheGame() {
     mystery = puzzles[RandomPuzzles].mystery;
     answer = puzzles[RandomPuzzles].answer;
     currendAnswer = answer;
+    answerLength = currendAnswer.length;
+    puzzles.push(removedPuzzles[0]);
+    removedPuzzles = puzzles.splice(RandomPuzzles, 1);
     errors = 0;
     x = 0;
     y = 0;
     examination = 0;
     z = 0;
     result = 0;
-    answerLength = answer.length;
 }
 
 
