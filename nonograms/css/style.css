@@ -1,0 +1,75 @@
+.body {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: #F070A1;
+    flex-direction: column;
+}
+
+.header {
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-family: "Coiny", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    background-color: #16FFBD;
+}
+
+.div_wrapper {
+    display: grid;
+    gap: 2px;
+    margin-top: 100px;
+}
+
+.button {
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    background-color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    font-family: "Coiny", system-ui;
+    font-weight: 200;
+    font-size: 25px;
+    font-style: normal;
+    user-select: none;
+    border: none;
+}
+
+.clicked {
+    background-color: #000000;
+}
+
+.button:hover {
+    background-color: antiquewhite;
+}
+
+.clicked:hover {
+    background-color: #2C2C2C;
+}
+
+.won {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.65);
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    font-family: "Coiny", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100px;
+    color: #16FFBD;
+    user-select: none;
+}
