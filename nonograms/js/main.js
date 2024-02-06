@@ -1,4 +1,6 @@
 const pictureOneFiveByFive = [1, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 16, 17, 18, 22];
+const pictureOneFiveByFiveHintsTop = ['', '', '', '', '', '', '', '', '', '', '2', '4', '4', '4', '2'];
+const pictureOneFiveByFiveHintsLeft = ['', '1', '1', '', '', '5', '', '', '5', '', '', '3', '', '', '1'];
 
 let header = document.createElement('header');
 header.className = 'header';
@@ -10,9 +12,25 @@ won.className = 'won';
 won.innerHTML = 'Victory';
 document.body.append(won);
 
+let container = document.createElement('div');
+container.className = 'container';
+document.body.append(container);
+
+let topTips = document.createElement('div');
+topTips.className = 'topTips';
+container.append(topTips);
+
+let Wrapper = document.createElement('div');
+Wrapper.className = 'Wrapper';
+container.append(Wrapper);
+
+let leftTips = document.createElement('div');
+leftTips.className = 'leftTips';
+Wrapper.append(leftTips);
+
 let divWrapper = document.createElement('div');
 divWrapper.className = 'div_wrapper';
-document.body.append(divWrapper);
+Wrapper.append(divWrapper);
 
 const creatingCells = (quantity) => {
     let numberOfColumns = '1fr ';
@@ -65,4 +83,47 @@ const creatingCells = (quantity) => {
         i += 1;
     }
 }
+
+const creatingTopTips = (quantity) => {
+    let topTipsOfColumns = '1fr ';
+    let topTipsOfColumns2 = topTipsOfColumns.repeat(quantity).trim();
+    topTips.style.gridTemplateColumns = topTipsOfColumns2;
+    let y = 0;
+    let p = 0;
+    while (y < quantity) {
+        let o = 0;
+        while (o < Math.ceil(quantity / 2)) {
+            let topTooltipElement = document.createElement('div');
+            topTooltipElement.className = 'topTooltipElement';
+            topTooltipElement.innerHTML = pictureOneFiveByFiveHintsTop[p];
+            topTips.append(topTooltipElement);
+            p += 1;
+            o += 1;
+        }
+        y += 1;
+    }
+}
+
+const creatingLeftTips = (quantity) => {
+    let leftTipsOfColumns = '1fr ';
+    let leftTipsOfColumns2 = leftTipsOfColumns.repeat(Math.ceil(quantity / 2)).trim();
+    leftTips.style.gridTemplateColumns = leftTipsOfColumns2;
+    let u = 0;
+    let y = 0;
+    while (y < quantity) {
+        let o = 0;
+        while (o < Math.ceil(quantity / 2)) {
+            let leftTooltipElement = document.createElement('div');
+            leftTooltipElement.className = 'leftTooltipElement';
+            leftTooltipElement.innerHTML = pictureOneFiveByFiveHintsLeft[u];
+            leftTips.append(leftTooltipElement);
+            o += 1;
+            u += 1;
+        }
+        y += 1;
+    }
+}
+
 creatingCells(5);
+creatingTopTips(5);
+creatingLeftTips(5);
