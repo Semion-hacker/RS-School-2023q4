@@ -35,6 +35,150 @@ const pictureThreeTenByTenHintsLeft = ['', '', '', '', '1', '', '', '', '', '1',
 const pictureFourTenByTenHintsLeft = ['', '', '', '', '1', '', '', '', '', '1', '', '', '', '', '1', '', '', '', '', '1', '', '', '', '', '1', '', '', '', '', '1', '', '', '', '', '1', '', '', '', '', '1', '', '', '', '', '1', '', '', '', '', '1'];
 const pictureFiveTenByTenHintsLeft = ['', '', '', '', '1', '', '', '', '', '1', '', '', '', '', '1', '', '', '', '', '1', '', '', '', '', '1', '', '', '', '', '1', '', '', '', '', '1', '', '', '', '', '1', '', '', '', '', '1', '', '', '', '', '1'];
 
+
+const pictureOneFifteenByFifteen = [14, 29, 44, 59, 74, 89, 104, 119, 134, 149, 164, 179, 194, 209, 224];
+const pictureTwoFifteenByFifteen = [13, 28, 43, 58, 73, 88, 103, 118, 133, 148, 163, 178, 193, 208, 223];
+const pictureThreeFifteenByFifteen = [12, 27, 42, 57, 72, 87, 102, 117, 132, 147, 162, 177, 192, 207, 222];
+const pictureFourFifteenByFifteen = [11, 26, 41, 56, 71, 86, 101, 116, 131, 146, 161, 176, 191, 206, 221];
+const pictureFiveFifteenByFifteen = [10, 25, 40, 55, 70, 85, 100, 115, 130, 145, 160, 175, 190, 205, 220];
+
+const pictureOneFifteenByFifteenHintsTop = [
+    '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+    '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+    '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+    '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+    '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+    '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+    '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+    '', '', '', '', '', '', '', '', '', '', '', '', '', '', '15'
+];
+const pictureTwoFifteenByFifteenHintsTop = [
+    '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+    '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+    '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+    '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+    '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+    '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+    '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+    '', '', '', '', '', '', '', '', '', '', '', '', '', '15', ''
+];
+const pictureThreeFifteenByFifteenHintsTop = [
+    '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+    '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+    '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+    '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+    '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+    '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+    '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+    '', '', '', '', '', '', '', '', '', '', '', '', '15', '', ''
+];
+const pictureFourFifteenByFifteenHintsTop = [
+    '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+    '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+    '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+    '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+    '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+    '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+    '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+    '', '', '', '', '', '', '', '', '', '', '', '15', '', '', ''
+];
+const pictureFiveFifteenByFifteenHintsTop = [
+    '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+    '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+    '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+    '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+    '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+    '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+    '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+    '', '', '', '', '', '', '', '', '', '', '15', '', '', '', ''
+];
+
+const pictureOneFifteenByFifteenHintsLeft = [
+    '', '', '', '', '', '', '', '1',
+    '', '', '', '', '', '', '', '1',
+    '', '', '', '', '', '', '', '1',
+    '', '', '', '', '', '', '', '1',
+    '', '', '', '', '', '', '', '1',
+    '', '', '', '', '', '', '', '1',
+    '', '', '', '', '', '', '', '1',
+    '', '', '', '', '', '', '', '1',
+    '', '', '', '', '', '', '', '1',
+    '', '', '', '', '', '', '', '1',
+    '', '', '', '', '', '', '', '1',
+    '', '', '', '', '', '', '', '1',
+    '', '', '', '', '', '', '', '1',
+    '', '', '', '', '', '', '', '1',
+    '', '', '', '', '', '', '', '1'
+];
+const pictureTwoFifteenByFifteenHintsLeft = [
+    '', '', '', '', '', '', '', '1',
+    '', '', '', '', '', '', '', '1',
+    '', '', '', '', '', '', '', '1',
+    '', '', '', '', '', '', '', '1',
+    '', '', '', '', '', '', '', '1',
+    '', '', '', '', '', '', '', '1',
+    '', '', '', '', '', '', '', '1',
+    '', '', '', '', '', '', '', '1',
+    '', '', '', '', '', '', '', '1',
+    '', '', '', '', '', '', '', '1',
+    '', '', '', '', '', '', '', '1',
+    '', '', '', '', '', '', '', '1',
+    '', '', '', '', '', '', '', '1',
+    '', '', '', '', '', '', '', '1',
+    '', '', '', '', '', '', '', '1'
+];
+const pictureThreeFifteenByFifteenHintsLeft = [
+    '', '', '', '', '', '', '', '1',
+    '', '', '', '', '', '', '', '1',
+    '', '', '', '', '', '', '', '1',
+    '', '', '', '', '', '', '', '1',
+    '', '', '', '', '', '', '', '1',
+    '', '', '', '', '', '', '', '1',
+    '', '', '', '', '', '', '', '1',
+    '', '', '', '', '', '', '', '1',
+    '', '', '', '', '', '', '', '1',
+    '', '', '', '', '', '', '', '1',
+    '', '', '', '', '', '', '', '1',
+    '', '', '', '', '', '', '', '1',
+    '', '', '', '', '', '', '', '1',
+    '', '', '', '', '', '', '', '1',
+    '', '', '', '', '', '', '', '1'
+];
+const pictureFourFifteenByFifteenHintsLeft = [
+    '', '', '', '', '', '', '', '1',
+    '', '', '', '', '', '', '', '1',
+    '', '', '', '', '', '', '', '1',
+    '', '', '', '', '', '', '', '1',
+    '', '', '', '', '', '', '', '1',
+    '', '', '', '', '', '', '', '1',
+    '', '', '', '', '', '', '', '1',
+    '', '', '', '', '', '', '', '1',
+    '', '', '', '', '', '', '', '1',
+    '', '', '', '', '', '', '', '1',
+    '', '', '', '', '', '', '', '1',
+    '', '', '', '', '', '', '', '1',
+    '', '', '', '', '', '', '', '1',
+    '', '', '', '', '', '', '', '1',
+    '', '', '', '', '', '', '', '1'
+];
+const pictureFiveFifteenByFifteenHintsLeft = [
+    '', '', '', '', '', '', '', '1',
+    '', '', '', '', '', '', '', '1',
+    '', '', '', '', '', '', '', '1',
+    '', '', '', '', '', '', '', '1',
+    '', '', '', '', '', '', '', '1',
+    '', '', '', '', '', '', '', '1',
+    '', '', '', '', '', '', '', '1',
+    '', '', '', '', '', '', '', '1',
+    '', '', '', '', '', '', '', '1',
+    '', '', '', '', '', '', '', '1',
+    '', '', '', '', '', '', '', '1',
+    '', '', '', '', '', '', '', '1',
+    '', '', '', '', '', '', '', '1',
+    '', '', '', '', '', '', '', '1',
+    '', '', '', '', '', '', '', '1'
+];
+
 const audioPress = new Audio();
 audioPress.src = './audio/press.mp3';
 const audioDelete = new Audio();
@@ -49,6 +193,11 @@ header.className = 'header';
 header.innerHTML = 'Nonograms Game';
 document.body.append(header);
 
+let color = document.createElement('div');
+color.className = 'color';
+color.innerHTML = 'color';
+header.append(color);
+
 let won = document.createElement('div');
 won.className = 'won';
 document.body.append(won);
@@ -58,9 +207,18 @@ let stopwatchWrapper = document.createElement('div');
 stopwatchWrapper.className = 'stopwatchWrapper';
 document.body.append(stopwatchWrapper);
 
+let save = document.createElement('div');
+save.className = 'save';
+stopwatchWrapper.append(save);
+
 let stopwatch = document.createElement('div');
 stopwatch.className = 'stopwatch';
 stopwatchWrapper.append(stopwatch);
+
+let continueFromSaving = document.createElement('div');
+continueFromSaving.className = 'continueFromSaving';
+continueFromSaving.innerHTML = 'continue';
+stopwatchWrapper.append(continueFromSaving);
 
 let restart = document.createElement('div');
 restart.className = 'restart';
@@ -105,8 +263,9 @@ Wrapper.append(divWrapper);
 let time = 0;
 const creatingCells = (quantity, picture) => {
     restart.addEventListener('click', () => {
+        time = 0;
         divWrapper.innerHTML = '';
-        creatingCells(5, picture);
+        creatingCells(quantity, picture);
         clearInterval(interval);
         minutesBlock.innerHTML = '00';
         secondsBlock.innerHTML = '00';
@@ -146,6 +305,7 @@ const creatingCells = (quantity, picture) => {
                             won.innerHTML = `Great! You have solved the nonogram in ${time} seconds!`;
                             won.style.display = 'flex';
                             clearInterval(interval);
+                            time = 0;
                         }
                     }
                 } else {
@@ -161,6 +321,7 @@ const creatingCells = (quantity, picture) => {
                                 won.innerHTML = `Great! You have solved the nonogram in ${time} seconds!`;
                                 won.style.display = 'flex';
                                 clearInterval(interval);
+                                time = 0;
                             }
                         }
                     })
@@ -196,8 +357,9 @@ const creatingCells = (quantity, picture) => {
 
 const creatingTopTips = (quantity, whatAreTheTips) => {
     restart.addEventListener('click', () => {
+        time = 0;
         topTips.innerHTML = '';
-        creatingTopTips(5, whatAreTheTips);
+        creatingTopTips(quantity, whatAreTheTips);
     })
     let topTipsOfColumns = '1fr ';
     let topTipsOfColumns2 = topTipsOfColumns.repeat(quantity).trim();
@@ -220,8 +382,9 @@ const creatingTopTips = (quantity, whatAreTheTips) => {
 
 const creatingLeftTips = (quantity, whatAreTheTips) => {
     restart.addEventListener('click', () => {
+        time = 0;
         leftTips.innerHTML = '';
-        creatingLeftTips(5, whatAreTheTips);
+        creatingLeftTips(quantity, whatAreTheTips);
     })
     let leftTipsOfColumns = '1fr ';
     let leftTipsOfColumns2 = leftTipsOfColumns.repeat(Math.ceil(quantity / 2)).trim();
@@ -283,11 +446,19 @@ levelsOneFiveByFive.innerHTML = 'heart';
 levelsOne.append(levelsOneFiveByFive);
 
 levelsOneFiveByFive.addEventListener('click', () => {
+    time = 0;
+    levelsOneFifteenByFifteen.classList.remove('levelsActive');
+    levelsThreeFifteenByFifteen.classList.remove('levelsActive');
+    levelsFourFifteenByFifteen.classList.remove('levelsActive');
+    levelsTwoFifteenByFifteen.classList.remove('levelsActive');
+    levelsFiveFifteenByFifteen.classList.remove('levelsActive');
+
     levelsOneTenByTen.classList.remove('levelsActive');
     levelsThreeTenByTen.classList.remove('levelsActive');
     levelsFourTenByTen.classList.remove('levelsActive');
     levelsTwoTenByTen.classList.remove('levelsActive');
     levelsFiveTenByTen.classList.remove('levelsActive');
+
     levelsTwoFiveByFive.classList.remove('levelsActive');
     levelsThreeFiveByFive.classList.remove('levelsActive');
     levelsFourFiveByFive.classList.remove('levelsActive');
@@ -312,11 +483,19 @@ levelsTwoFiveByFive.innerHTML = 'ship';
 levelsOne.append(levelsTwoFiveByFive);
 
 levelsTwoFiveByFive.addEventListener('click', () => {
+    time = 0;
+    levelsOneFifteenByFifteen.classList.remove('levelsActive');
+    levelsThreeFifteenByFifteen.classList.remove('levelsActive');
+    levelsFourFifteenByFifteen.classList.remove('levelsActive');
+    levelsTwoFifteenByFifteen.classList.remove('levelsActive');
+    levelsFiveFifteenByFifteen.classList.remove('levelsActive');
+
     levelsOneTenByTen.classList.remove('levelsActive');
     levelsThreeTenByTen.classList.remove('levelsActive');
     levelsFourTenByTen.classList.remove('levelsActive');
     levelsTwoTenByTen.classList.remove('levelsActive');
     levelsFiveTenByTen.classList.remove('levelsActive');
+
     levelsOneFiveByFive.classList.remove('levelsActive');
     levelsThreeFiveByFive.classList.remove('levelsActive');
     levelsFourFiveByFive.classList.remove('levelsActive');
@@ -341,11 +520,19 @@ levelsThreeFiveByFive.innerHTML = 'fish';
 levelsOne.append(levelsThreeFiveByFive);
 
 levelsThreeFiveByFive.addEventListener('click', () => {
+    time = 0;
+    levelsOneFifteenByFifteen.classList.remove('levelsActive');
+    levelsThreeFifteenByFifteen.classList.remove('levelsActive');
+    levelsFourFifteenByFifteen.classList.remove('levelsActive');
+    levelsTwoFifteenByFifteen.classList.remove('levelsActive');
+    levelsFiveFifteenByFifteen.classList.remove('levelsActive');
+
     levelsOneTenByTen.classList.remove('levelsActive');
     levelsThreeTenByTen.classList.remove('levelsActive');
     levelsFourTenByTen.classList.remove('levelsActive');
     levelsTwoTenByTen.classList.remove('levelsActive');
     levelsFiveTenByTen.classList.remove('levelsActive');
+
     levelsOneFiveByFive.classList.remove('levelsActive');
     levelsTwoFiveByFive.classList.remove('levelsActive');
     levelsFourFiveByFive.classList.remove('levelsActive');
@@ -370,11 +557,19 @@ levelsFourFiveByFive.innerHTML = 'smile';
 levelsOne.append(levelsFourFiveByFive);
 
 levelsFourFiveByFive.addEventListener('click', () => {
+    time = 0;
+    levelsOneFifteenByFifteen.classList.remove('levelsActive');
+    levelsThreeFifteenByFifteen.classList.remove('levelsActive');
+    levelsFourFifteenByFifteen.classList.remove('levelsActive');
+    levelsTwoFifteenByFifteen.classList.remove('levelsActive');
+    levelsFiveFifteenByFifteen.classList.remove('levelsActive');
+
     levelsOneTenByTen.classList.remove('levelsActive');
     levelsThreeTenByTen.classList.remove('levelsActive');
     levelsFourTenByTen.classList.remove('levelsActive');
     levelsTwoTenByTen.classList.remove('levelsActive');
     levelsFiveTenByTen.classList.remove('levelsActive');
+
     levelsOneFiveByFive.classList.remove('levelsActive');
     levelsThreeFiveByFive.classList.remove('levelsActive');
     levelsTwoFiveByFive.classList.remove('levelsActive');
@@ -399,11 +594,19 @@ levelsFiveFiveByFive.innerHTML = 'umbrella';
 levelsOne.append(levelsFiveFiveByFive);
 
 levelsFiveFiveByFive.addEventListener('click', () => {
+    time = 0;
+    levelsOneFifteenByFifteen.classList.remove('levelsActive');
+    levelsThreeFifteenByFifteen.classList.remove('levelsActive');
+    levelsFourFifteenByFifteen.classList.remove('levelsActive');
+    levelsTwoFifteenByFifteen.classList.remove('levelsActive');
+    levelsFiveFifteenByFifteen.classList.remove('levelsActive');
+
     levelsOneTenByTen.classList.remove('levelsActive');
     levelsThreeTenByTen.classList.remove('levelsActive');
     levelsFourTenByTen.classList.remove('levelsActive');
     levelsTwoTenByTen.classList.remove('levelsActive');
     levelsFiveTenByTen.classList.remove('levelsActive');
+
     levelsOneFiveByFive.classList.remove('levelsActive');
     levelsThreeFiveByFive.classList.remove('levelsActive');
     levelsFourFiveByFive.classList.remove('levelsActive');
@@ -442,11 +645,19 @@ levelsOneTenByTen.innerHTML = 'flower';
 levelsTwo.append(levelsOneTenByTen);
 
 levelsOneTenByTen.addEventListener('click', () => {
+    time = 0;
+    levelsOneFifteenByFifteen.classList.remove('levelsActive');
+    levelsThreeFifteenByFifteen.classList.remove('levelsActive');
+    levelsFourFifteenByFifteen.classList.remove('levelsActive');
+    levelsTwoFifteenByFifteen.classList.remove('levelsActive');
+    levelsFiveFifteenByFifteen.classList.remove('levelsActive');
+
     levelsTwoFiveByFive.classList.remove('levelsActive');
     levelsThreeFiveByFive.classList.remove('levelsActive');
     levelsFourFiveByFive.classList.remove('levelsActive');
     levelsFiveFiveByFive.classList.remove('levelsActive');
     levelsOneFiveByFive.classList.remove('levelsActive');
+
     levelsTwoTenByTen.classList.remove('levelsActive');
     levelsThreeTenByTen.classList.remove('levelsActive');
     levelsFourTenByTen.classList.remove('levelsActive');
@@ -471,11 +682,19 @@ levelsTwoTenByTen.innerHTML = 'line1';
 levelsTwo.append(levelsTwoTenByTen);
 
 levelsTwoTenByTen.addEventListener('click', () => {
+    time = 0;
+    levelsOneFifteenByFifteen.classList.remove('levelsActive');
+    levelsThreeFifteenByFifteen.classList.remove('levelsActive');
+    levelsFourFifteenByFifteen.classList.remove('levelsActive');
+    levelsTwoFifteenByFifteen.classList.remove('levelsActive');
+    levelsFiveFifteenByFifteen.classList.remove('levelsActive');
+
     levelsTwoFiveByFive.classList.remove('levelsActive');
     levelsThreeFiveByFive.classList.remove('levelsActive');
     levelsFourFiveByFive.classList.remove('levelsActive');
     levelsFiveFiveByFive.classList.remove('levelsActive');
     levelsOneFiveByFive.classList.remove('levelsActive');
+
     levelsOneTenByTen.classList.remove('levelsActive');
     levelsThreeTenByTen.classList.remove('levelsActive');
     levelsFourTenByTen.classList.remove('levelsActive');
@@ -500,11 +719,19 @@ levelsThreeTenByTen.innerHTML = 'line2';
 levelsTwo.append(levelsThreeTenByTen);
 
 levelsThreeTenByTen.addEventListener('click', () => {
+    time = 0;
+    levelsOneFifteenByFifteen.classList.remove('levelsActive');
+    levelsThreeFifteenByFifteen.classList.remove('levelsActive');
+    levelsFourFifteenByFifteen.classList.remove('levelsActive');
+    levelsTwoFifteenByFifteen.classList.remove('levelsActive');
+    levelsFiveFifteenByFifteen.classList.remove('levelsActive');
+
     levelsTwoFiveByFive.classList.remove('levelsActive');
     levelsThreeFiveByFive.classList.remove('levelsActive');
     levelsFourFiveByFive.classList.remove('levelsActive');
     levelsFiveFiveByFive.classList.remove('levelsActive');
     levelsOneFiveByFive.classList.remove('levelsActive');
+
     levelsOneTenByTen.classList.remove('levelsActive');
     levelsTwoTenByTen.classList.remove('levelsActive');
     levelsFourTenByTen.classList.remove('levelsActive');
@@ -529,11 +756,19 @@ levelsFourTenByTen.innerHTML = 'line3';
 levelsTwo.append(levelsFourTenByTen);
 
 levelsFourTenByTen.addEventListener('click', () => {
+    time = 0;
+    levelsOneFifteenByFifteen.classList.remove('levelsActive');
+    levelsThreeFifteenByFifteen.classList.remove('levelsActive');
+    levelsFourFifteenByFifteen.classList.remove('levelsActive');
+    levelsTwoFifteenByFifteen.classList.remove('levelsActive');
+    levelsFiveFifteenByFifteen.classList.remove('levelsActive');
+
     levelsTwoFiveByFive.classList.remove('levelsActive');
     levelsThreeFiveByFive.classList.remove('levelsActive');
     levelsFourFiveByFive.classList.remove('levelsActive');
     levelsFiveFiveByFive.classList.remove('levelsActive');
     levelsOneFiveByFive.classList.remove('levelsActive');
+
     levelsOneTenByTen.classList.remove('levelsActive');
     levelsThreeTenByTen.classList.remove('levelsActive');
     levelsTwoTenByTen.classList.remove('levelsActive');
@@ -558,11 +793,19 @@ levelsFiveTenByTen.innerHTML = 'line4';
 levelsTwo.append(levelsFiveTenByTen);
 
 levelsFiveTenByTen.addEventListener('click', () => {
+    time = 0;
+    levelsOneFifteenByFifteen.classList.remove('levelsActive');
+    levelsThreeFifteenByFifteen.classList.remove('levelsActive');
+    levelsFourFifteenByFifteen.classList.remove('levelsActive');
+    levelsTwoFifteenByFifteen.classList.remove('levelsActive');
+    levelsFiveFifteenByFifteen.classList.remove('levelsActive');
+
     levelsTwoFiveByFive.classList.remove('levelsActive');
     levelsThreeFiveByFive.classList.remove('levelsActive');
     levelsFourFiveByFive.classList.remove('levelsActive');
     levelsFiveFiveByFive.classList.remove('levelsActive');
     levelsOneFiveByFive.classList.remove('levelsActive');
+
     levelsOneTenByTen.classList.remove('levelsActive');
     levelsThreeTenByTen.classList.remove('levelsActive');
     levelsFourTenByTen.classList.remove('levelsActive');
@@ -579,6 +822,253 @@ levelsFiveTenByTen.addEventListener('click', () => {
     secondsBlock.innerHTML = '00';
     seconds = 0;
     minutes = 0;
+})
+
+
+
+
+
+
+let levelsThree = document.createElement('div');
+levelsThree.className = 'levelsThree';
+levels.append(levelsThree);
+
+let levelsFifteenByFifteen = document.createElement('div');
+levelsFifteenByFifteen.className = 'levelsFifteenByFifteen';
+levelsFifteenByFifteen.innerHTML = 'Level 3';
+levelsThree.append(levelsFifteenByFifteen);
+
+let levelsOneFifteenByFifteen = document.createElement('div');
+levelsOneFifteenByFifteen.className = 'levelsOneFifteenByFifteen';
+levelsOneFifteenByFifteen.innerHTML = 'line5';
+levelsThree.append(levelsOneFifteenByFifteen);
+
+levelsOneFifteenByFifteen.addEventListener('click', () => {
+    time = 0;
+    levelsOneTenByTen.classList.remove('levelsActive');
+    levelsThreeTenByTen.classList.remove('levelsActive');
+    levelsFourTenByTen.classList.remove('levelsActive');
+    levelsTwoTenByTen.classList.remove('levelsActive');
+    levelsFiveTenByTen.classList.remove('levelsActive');
+
+    levelsTwoFiveByFive.classList.remove('levelsActive');
+    levelsThreeFiveByFive.classList.remove('levelsActive');
+    levelsFourFiveByFive.classList.remove('levelsActive');
+    levelsFiveFiveByFive.classList.remove('levelsActive');
+    levelsOneFiveByFive.classList.remove('levelsActive');
+
+    levelsTwoFifteenByFifteen.classList.remove('levelsActive');
+    levelsThreeFifteenByFifteen.classList.remove('levelsActive');
+    levelsFourFifteenByFifteen.classList.remove('levelsActive');
+    levelsFiveFifteenByFifteen.classList.remove('levelsActive');
+    levelsOneFifteenByFifteen.classList.add('levelsActive');
+    topTips.innerHTML = '';
+    leftTips.innerHTML = '';
+    divWrapper.innerHTML = '';
+    creatingCells(15, pictureOneFifteenByFifteen);
+    creatingTopTips(15, pictureOneFifteenByFifteenHintsTop);
+    creatingLeftTips(15, pictureOneFifteenByFifteenHintsLeft);
+    clearInterval(interval);
+    minutesBlock.innerHTML = '00';
+    secondsBlock.innerHTML = '00';
+    seconds = 0;
+    minutes = 0;
+})
+
+let levelsTwoFifteenByFifteen = document.createElement('div');
+levelsTwoFifteenByFifteen.className = 'levelsTwoFifteenByFifteen';
+levelsTwoFifteenByFifteen.innerHTML = 'line6';
+levelsThree.append(levelsTwoFifteenByFifteen);
+
+levelsTwoFifteenByFifteen.addEventListener('click', () => {
+    time = 0;
+    levelsOneTenByTen.classList.remove('levelsActive');
+    levelsThreeTenByTen.classList.remove('levelsActive');
+    levelsFourTenByTen.classList.remove('levelsActive');
+    levelsTwoTenByTen.classList.remove('levelsActive');
+    levelsFiveTenByTen.classList.remove('levelsActive');
+
+    levelsTwoFiveByFive.classList.remove('levelsActive');
+    levelsThreeFiveByFive.classList.remove('levelsActive');
+    levelsFourFiveByFive.classList.remove('levelsActive');
+    levelsFiveFiveByFive.classList.remove('levelsActive');
+    levelsOneFiveByFive.classList.remove('levelsActive');
+
+    levelsOneFifteenByFifteen.classList.remove('levelsActive');
+    levelsThreeFifteenByFifteen.classList.remove('levelsActive');
+    levelsFourFifteenByFifteen.classList.remove('levelsActive');
+    levelsFiveFifteenByFifteen.classList.remove('levelsActive');
+    levelsTwoFifteenByFifteen.classList.add('levelsActive');
+    topTips.innerHTML = '';
+    leftTips.innerHTML = '';
+    divWrapper.innerHTML = '';
+    creatingCells(15, pictureTwoFifteenByFifteen);
+    creatingTopTips(15, pictureTwoFifteenByFifteenHintsTop);
+    creatingLeftTips(15, pictureTwoFifteenByFifteenHintsLeft);
+    clearInterval(interval);
+    minutesBlock.innerHTML = '00';
+    secondsBlock.innerHTML = '00';
+    seconds = 0;
+    minutes = 0;
+})
+
+let levelsThreeFifteenByFifteen = document.createElement('div');
+levelsThreeFifteenByFifteen.className = 'levelsThreeFifteenByFifteen';
+levelsThreeFifteenByFifteen.innerHTML = 'line7';
+levelsThree.append(levelsThreeFifteenByFifteen);
+
+levelsThreeFifteenByFifteen.addEventListener('click', () => {
+    time = 0;
+    levelsOneTenByTen.classList.remove('levelsActive');
+    levelsThreeTenByTen.classList.remove('levelsActive');
+    levelsFourTenByTen.classList.remove('levelsActive');
+    levelsTwoTenByTen.classList.remove('levelsActive');
+    levelsFiveTenByTen.classList.remove('levelsActive');
+
+    levelsTwoFiveByFive.classList.remove('levelsActive');
+    levelsThreeFiveByFive.classList.remove('levelsActive');
+    levelsFourFiveByFive.classList.remove('levelsActive');
+    levelsFiveFiveByFive.classList.remove('levelsActive');
+    levelsOneFiveByFive.classList.remove('levelsActive');
+
+    levelsOneFifteenByFifteen.classList.remove('levelsActive');
+    levelsTwoFifteenByFifteen.classList.remove('levelsActive');
+    levelsFourFifteenByFifteen.classList.remove('levelsActive');
+    levelsFiveFifteenByFifteen.classList.remove('levelsActive');
+    levelsThreeFifteenByFifteen.classList.add('levelsActive');
+    topTips.innerHTML = '';
+    leftTips.innerHTML = '';
+    divWrapper.innerHTML = '';
+    creatingCells(15, pictureThreeFifteenByFifteen);
+    creatingTopTips(15, pictureThreeFifteenByFifteenHintsTop);
+    creatingLeftTips(15, pictureThreeFifteenByFifteenHintsLeft);
+    clearInterval(interval);
+    minutesBlock.innerHTML = '00';
+    secondsBlock.innerHTML = '00';
+    seconds = 0;
+    minutes = 0;
+})
+
+let levelsFourFifteenByFifteen = document.createElement('div');
+levelsFourFifteenByFifteen.className = 'levelsFourFifteenByFifteen';
+levelsFourFifteenByFifteen.innerHTML = 'line8';
+levelsThree.append(levelsFourFifteenByFifteen);
+
+levelsFourFifteenByFifteen.addEventListener('click', () => {
+    time = 0;
+    levelsOneTenByTen.classList.remove('levelsActive');
+    levelsThreeTenByTen.classList.remove('levelsActive');
+    levelsFourTenByTen.classList.remove('levelsActive');
+    levelsTwoTenByTen.classList.remove('levelsActive');
+    levelsFiveTenByTen.classList.remove('levelsActive');
+
+    levelsTwoFiveByFive.classList.remove('levelsActive');
+    levelsThreeFiveByFive.classList.remove('levelsActive');
+    levelsFourFiveByFive.classList.remove('levelsActive');
+    levelsFiveFiveByFive.classList.remove('levelsActive');
+    levelsOneFiveByFive.classList.remove('levelsActive');
+
+    levelsOneFifteenByFifteen.classList.remove('levelsActive');
+    levelsThreeFifteenByFifteen.classList.remove('levelsActive');
+    levelsTwoFifteenByFifteen.classList.remove('levelsActive');
+    levelsFiveFifteenByFifteen.classList.remove('levelsActive');
+    levelsFourFifteenByFifteen.classList.add('levelsActive');
+    topTips.innerHTML = '';
+    leftTips.innerHTML = '';
+    divWrapper.innerHTML = '';
+    creatingCells(15, pictureFourFifteenByFifteen);
+    creatingTopTips(15, pictureFourFifteenByFifteenHintsTop);
+    creatingLeftTips(15, pictureFourFifteenByFifteenHintsLeft);
+    clearInterval(interval);
+    minutesBlock.innerHTML = '00';
+    secondsBlock.innerHTML = '00';
+    seconds = 0;
+    minutes = 0;
+})
+
+let levelsFiveFifteenByFifteen = document.createElement('div');
+levelsFiveFifteenByFifteen.className = 'levelsFiveFifteenByFifteen';
+levelsFiveFifteenByFifteen.innerHTML = 'line9';
+levelsThree.append(levelsFiveFifteenByFifteen);
+
+levelsFiveFifteenByFifteen.addEventListener('click', () => {
+    time = 0;
+    levelsOneTenByTen.classList.remove('levelsActive');
+    levelsThreeTenByTen.classList.remove('levelsActive');
+    levelsFourTenByTen.classList.remove('levelsActive');
+    levelsTwoTenByTen.classList.remove('levelsActive');
+    levelsFiveTenByTen.classList.remove('levelsActive');
+
+    levelsTwoFiveByFive.classList.remove('levelsActive');
+    levelsThreeFiveByFive.classList.remove('levelsActive');
+    levelsFourFiveByFive.classList.remove('levelsActive');
+    levelsFiveFiveByFive.classList.remove('levelsActive');
+    levelsOneFiveByFive.classList.remove('levelsActive');
+
+    levelsOneFifteenByFifteen.classList.remove('levelsActive');
+    levelsThreeFifteenByFifteen.classList.remove('levelsActive');
+    levelsFourFifteenByFifteen.classList.remove('levelsActive');
+    levelsTwoFifteenByFifteen.classList.remove('levelsActive');
+    levelsFiveFifteenByFifteen.classList.add('levelsActive');
+    topTips.innerHTML = '';
+    leftTips.innerHTML = '';
+    divWrapper.innerHTML = '';
+    creatingCells(15, pictureFiveFifteenByFifteen);
+    creatingTopTips(15, pictureFiveFifteenByFifteenHintsTop);
+    creatingLeftTips(15, pictureFiveFifteenByFifteenHintsLeft);
+    clearInterval(interval);
+    minutesBlock.innerHTML = '00';
+    secondsBlock.innerHTML = '00';
+    seconds = 0;
+    minutes = 0;
+})
+
+won.addEventListener('click', () => {
+    won.style.display = 'none';
+    time = 0;
+    topTips.innerHTML = '';
+    leftTips.innerHTML = '';
+    divWrapper.innerHTML = '';
+    clearInterval(interval);
+    minutesBlock.innerHTML = '00';
+    secondsBlock.innerHTML = '00';
+    seconds = 0;
+    minutes = 0;
+    creatingCells(5, pictureOneFiveByFive);
+    creatingTopTips(5, pictureOneFiveByFiveHintsTop);
+    creatingLeftTips(5, pictureOneFiveByFiveHintsLeft);
+})
+
+save.addEventListener('click', () => {
+
+})
+
+continueFromSaving.addEventListener('click', () => {
+
+})
+
+color.addEventListener('click', () => {
+    if (color.classList.contains('clickedColor')) {
+        color.classList.remove('clickedColor');
+        document.documentElement.style.setProperty('--main-bg-color', '#F070A1');
+        document.documentElement.style.setProperty('--mainOne-bg-color', '#C34271');
+        document.documentElement.style.setProperty('--mainTwo-bg-color', '#16FFBD');
+        document.documentElement.style.setProperty('--mainThree-bg-color', '#439F76');
+        document.documentElement.style.setProperty('--mainFour-bg-color', '#000000');
+        document.documentElement.style.setProperty('--mainFive-bg-color', '#ffffff');
+        document.documentElement.style.setProperty('--mainSix-bg-color', 'antiquewhite');
+        document.documentElement.style.setProperty('--mainSeven-bg-color', 'rgba(0, 0, 0, 0.65)');
+    } else {
+        color.classList.add('clickedColor');
+        document.documentElement.style.setProperty('--main-bg-color', '#439F76');
+        document.documentElement.style.setProperty('--mainOne-bg-color', '#16FFBD');
+        document.documentElement.style.setProperty('--mainTwo-bg-color', '#C34271');
+        document.documentElement.style.setProperty('--mainThree-bg-color', '#F070A1');
+        document.documentElement.style.setProperty('--mainFour-bg-color', '#ffffff');
+        document.documentElement.style.setProperty('--mainFive-bg-color', '#000000');
+        document.documentElement.style.setProperty('--mainSix-bg-color', '#ffffff');
+        document.documentElement.style.setProperty('--mainSeven-bg-color', 'rgba(0, 0, 0, 0.65)');
+    }
 })
 
 creatingCells(5, pictureOneFiveByFive);
