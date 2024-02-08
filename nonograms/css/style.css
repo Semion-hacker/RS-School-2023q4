@@ -27,6 +27,7 @@
     flex-direction: column;
     align-items: end;
     margin-right: 50px;
+    margin-bottom: 50px;
 }
 
 .topTips {
@@ -95,7 +96,7 @@
     font-family: "Coiny", system-ui;
     font-weight: 400;
     font-style: normal;
-    font-size: 100px;
+    font-size: 40px;
     color: #16FFBD;
     user-select: none;
 }
@@ -128,4 +129,318 @@
     user-select: none;
     justify-content: center;
     align-items: center;
+}
+
+/*.stopwatchWrapper {
+    
+}*/
+
+.stopwatch {
+    background-color: #439F76;
+    width: 100px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Coiny", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    color: #000000;
+    border-radius: 0 0 10px 10px;
+}
+
+.restart {
+    cursor: pointer;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Coiny", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    color: #000000;
+    background-color: #C34271;
+    border-radius: 0 0 10px 10px;
+    user-select: none;
+    transition: 0.5s;
+}
+
+.restart:hover {
+    background-color: #439F76;
+}
+
+.levels {
+    display: flex;
+    gap: 10px;
+}
+
+.levelsOne {
+    display: flex;
+    flex-direction: column;
+}
+
+.levelsTwo {
+    display: flex;
+    flex-direction: column;
+}
+
+.levelsFiveByFive {
+    background-color: #C34271;
+    width: 105px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Coiny", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+    color: #000000;
+    border-radius: 10px;
+}
+
+.levelsOneFiveByFive {
+    cursor: pointer;
+    background-color: #439F76;
+    width: 105px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Coiny", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+    color: #000000;
+    border-radius: 10px;
+    transition: 0.5s;
+    user-select: none;
+}
+
+.levelsOneFiveByFive:hover {
+    background-color: #16FFBD;
+}
+
+.levelsTwoFiveByFive {
+    cursor: pointer;
+    background-color: #439F76;
+    width: 105px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Coiny", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+    color: #000000;
+    border-radius: 10px;
+    transition: 0.5s;
+    user-select: none;
+}
+
+.levelsTwoFiveByFive:hover {
+    background-color: #16FFBD;
+}
+
+.levelsThreeFiveByFive {
+    cursor: pointer;
+    background-color: #439F76;
+    width: 105px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Coiny", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+    color: #000000;
+    border-radius: 10px;
+    transition: 0.5s;
+    user-select: none;
+}
+
+.levelsThreeFiveByFive:hover {
+    background-color: #16FFBD;
+}
+
+.levelsFourFiveByFive {
+    cursor: pointer;
+    background-color: #439F76;
+    width: 105px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Coiny", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+    color: #000000;
+    border-radius: 10px;
+    transition: 0.5s;
+    user-select: none;
+}
+
+.levelsFourFiveByFive:hover {
+    background-color: #16FFBD;
+}
+
+.levelsFiveFiveByFive {
+    cursor: pointer;
+    background-color: #439F76;
+    width: 105px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Coiny", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+    color: #000000;
+    border-radius: 10px;
+    transition: 0.5s;
+    user-select: none;
+}
+
+.levelsFiveFiveByFive:hover {
+    background-color: #16FFBD;
+}
+
+
+
+
+
+
+.levelsTenByTen {
+    background-color: #C34271;
+    width: 105px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Coiny", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+    color: #000000;
+    border-radius: 10px;
+}
+
+.levelsOneTenByTen {
+    cursor: pointer;
+    background-color: #439F76;
+    width: 105px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Coiny", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+    color: #000000;
+    border-radius: 10px;
+    transition: 0.5s;
+    user-select: none;
+}
+
+.levelsOneTenByTen:hover {
+    background-color: #16FFBD;
+}
+
+.levelsTwoTenByTen {
+    cursor: pointer;
+    background-color: #439F76;
+    width: 105px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Coiny", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+    color: #000000;
+    border-radius: 10px;
+    transition: 0.5s;
+    user-select: none;
+}
+
+.levelsTwoTenByTen:hover {
+    background-color: #16FFBD;
+}
+
+.levelsThreeTenByTen {
+    cursor: pointer;
+    background-color: #439F76;
+    width: 105px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Coiny", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+    color: #000000;
+    border-radius: 10px;
+    transition: 0.5s;
+    user-select: none;
+}
+
+.levelsThreeTenByTen:hover {
+    background-color: #16FFBD;
+}
+
+.levelsFourTenByTen {
+    cursor: pointer;
+    background-color: #439F76;
+    width: 105px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Coiny", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+    color: #000000;
+    border-radius: 10px;
+    transition: 0.5s;
+    user-select: none;
+}
+
+.levelsFourTenByTen:hover {
+    background-color: #16FFBD;
+}
+
+.levelsFiveTenByTen {
+    cursor: pointer;
+    background-color: #439F76;
+    width: 105px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Coiny", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+    color: #000000;
+    border-radius: 10px;
+    transition: 0.5s;
+    user-select: none;
+}
+
+.levelsFiveTenByTen:hover {
+    background-color: #16FFBD;
+}
+
+.levelsActive {
+    background-color: #16FFBD;
 }
